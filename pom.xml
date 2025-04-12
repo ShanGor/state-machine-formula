@@ -25,7 +25,7 @@
     <scm>
         <connection>scm:git:git://github.com/ShanGor/state-machine-formula.git</connection>
         <developerConnection>scm:git:ssh://github.com:ShanGor/state-machine-formula.git</developerConnection>
-        <url>http://github.com/ShanGor/state-machine-formula/tree/master</url>
+        <url>https://github.com/ShanGor/state-machine-formula/tree/master</url>
     </scm>
 	<properties>
 		<java.version>17</java.version>
