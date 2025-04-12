@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>io.github.shangor</groupId>
 	<artifactId>state-machine-formula</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<name>state-machine-formula</name>
 	<description>state machine formula: derive target state from collected states</description>
 	<url/>

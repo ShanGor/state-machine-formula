@@ -40,8 +40,8 @@ class StateUtilTest {
     void parseFormulaForInput() {
         var formula = "s1 & s2 & s3 => s4";
         var formulas = StateUtil.parseFormulaForInput(formula);
-        var vars = formulas.getKey();
-        var possibleResults = formulas.getValue();
+        var vars = formulas.getLeft();
+        var possibleResults = formulas.getRight();
         assertTrue(vars.contains("s1"));
         assertTrue(vars.contains("s2"));
         assertTrue(vars.contains("s3"));

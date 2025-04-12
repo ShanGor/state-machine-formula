@@ -10,6 +10,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Pair <K, V>{
-    private K key;
-    private V value;
+    private K left;
+    private V right;
 }
